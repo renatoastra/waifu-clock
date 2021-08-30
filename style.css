@@ -1,0 +1,198 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-color: rgb(251, 166, 166);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img:hover{
+  width: 100%;
+  cursor: pointer;
+}
+.header img{
+  
+  transition: 0.5s;
+  width: 80%;
+  
+}
+
+.logo:hover{
+  width: 36rem;
+  height: 18rem;
+  font-size: 6.5rem;
+}
+
+
+
+
+.logo{
+  width: 30rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  color: white;
+  justify-content: center;
+  border-radius: 3%;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgb(251, 166, 166);
+  background-color:white;
+  border:  solid 1px rgb(251, 166, 166);
+}
+
+.botao{
+  background-color: rgb(251, 166, 166);
+  border: none;
+  width: 8rem;
+  height: 2.5rem;
+  color: white;
+  transition: 0.5s;
+}
+
+.botao:hover{
+  color: rgb(251, 166, 166);
+  background-color:white;
+  border:  solid 1px rgb(251, 166, 166);
+}
+
+.modal-header{
+  background-color: rgb(251, 166, 166);
+  color: white;
+}
+
+.close{
+  background-color: rgb(251, 166, 166);
+  color: white;
+  font-size: 2rem;
+  border: white;
+}
+.test{
+  visibility: hidden;
+}
+
+.afterLogin{
+  
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.pintudo{
+  font-size: 2.6rem;
+}
+
+.remove-clock{
+  display: none;
+}
+
+.nav-item a{
+  color: rgb(251, 166, 166);
+}
+
+/* QUERIES */
+@media (max-width: 1380px){
+  .header img{
+  
+    width: 100%;
+  }
+
+  .logo{
+    margin-right: 2rem;
+  }
+
+}
+
+h2.text{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.div-grid{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body a{
+  color: rgb(251, 166, 166);
+}
+
+#fullModal{
+  background-color: brown;
+}
+
+.testee{
+  background-color: brown;
+}
+
+.divrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalText{
+  font-size: 4rem;
+}
+
+.modalText button{
+  font-size:1rem
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+  .header img{
+  
+    width: 100%;
+    
+  }
+
+  .logo{
+    font-size: 3rem;
+    width: 20rem;
+  }
+
+  .afterLogin{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 900px){
+  .header img{
+  
+    width: 100%;
+    
+  }
+
+  .logo{
+    display: none;
+  }
+}
+
+@media (max-width: 599px){
+  .header img{
+  
+    width: 100%;
+    
+  }
+
+  .logo{
+    display: none;
+  }
+}
